@@ -1,4 +1,4 @@
-FROM node:8.9-slim
+FROM node:20.8.0-slim
 
 # hadolint ignore=DL3009
 RUN apt-get update -qq && apt-get install -qy \ 
