@@ -1,5 +1,6 @@
 #!/bin/sh
 # shellcheck disable=SC3037
+# testing
 while ! timeout 1 bash -c "echo > /dev/tcp/vote/80"; do
     sleep 1
 done
